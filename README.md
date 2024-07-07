@@ -4,9 +4,9 @@ How closely to their party's manifesto do german politicians speak in the Bundes
 
 ## Research background
 
-The main script (__party-closeness-bundestag.R__) investigates the relation between politicians' speeches in the Bundestag and their party's manifesto by looking at TF-IDF scores.
+The main script (__party-closeness-bundestag.R__) investigates the relation between politicians' speeches in the Bundestag and their party's manifesto by looking at TF-IDF scores. The corresponding term paper can be found [here](https://tilmanhornung.de/pdf/bundestag_closeness.pdf).
 
-## What comes with it?
+## Content
 
 * __bundestag_process.R__ provides useful functions for scraping Bundestag protocols of the current term and also for extracting actual speech text per parliamentarian out of any set of given (or scraped) Bundestag protocols. Lastly, functions for creating TF-IDF document-term-matrices out of the given speech corpus are also included.
 * __manifestos_process.R__ provides useful functions for downloading parties manifestos (by use of the [Manifesto Project](https://manifesto-project.wzb.eu/)'s data through [ManifestoR](https://github.com/ManifestoProject/manifestoR/)) and creating TF-IDF document-term-matrices out of them.
